@@ -1,0 +1,16 @@
+public class deneme {
+
+    static int fibonacci(int index){
+
+        if(index==0 || index==1){
+            return 1;
+        }else{
+
+            return fibonacci(index - 2) + fibonacci(index - 1);
+        }
+    }
+    public static void main(String[] args){
+        System.out.println(fibonacci(5));
+
+    }
+}
